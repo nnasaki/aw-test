@@ -31,9 +31,6 @@
 
 name: "Daily Repo Status"
 "on":
-  schedule:
-  - cron: "16 12 * * *"
-    # Friendly format: daily (scattered)
   workflow_dispatch:
     inputs:
       aw_context:
